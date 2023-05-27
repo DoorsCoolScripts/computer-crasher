@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<p id="demo"></p>
+
+<script>
+let text = ""
+let i = 0;
+
+do {
+  text += "<br>Get Crashed LOL " + i;
+  i++;
+}
+while (i < 1000000000000000);  
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
